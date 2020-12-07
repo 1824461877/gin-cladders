@@ -1,0 +1,13 @@
+[conf]
+    service_name = "Mongodb"
+    service_addr = "coms.xiaopan233.club"
+    service_port = 27017
+    service_database = '/dbweblis'
+    user = "dbwebauth"
+    password = "dbwebauthfrom"
+    max_conn_life_time = 100
+    max_open_conn = 20
+    max_idle_conn = 10
+
+
+# mongodb://dbwebauth:dbwebauthfrom@coms.xiaopan233.club:27017/dbweblis

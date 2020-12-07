@@ -1,0 +1,15 @@
+# This is prod environment config
+
+[base]
+    debug_mode="debug"
+    time_location="Asia/Chongqing"
+
+[log]
+    log_level = "trace"         #日志打印最低级别
+    [log.file_writer]           #文件写入配置
+        on = true
+        log_path = "./logs/log_test.log"
+        wf_log_path = "./logs/log_test.wf.log"
+    [log.console_writer]        #工作台输出
+        on = true
+        color = true

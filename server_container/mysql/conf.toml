@@ -1,0 +1,10 @@
+[conf]
+    service_name = "Mysql"
+    service_addr = "coms.xiaopan233.club"
+    service_port = 7777
+    service_database = "/coms"
+    user = "root"
+    password = "123456"
+    max_conn_life_time = 100
+    max_open_conn = 20
+    max_idle_conn = 10
